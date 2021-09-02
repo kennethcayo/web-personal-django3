@@ -1,0 +1,28 @@
+<!-- Etiquetas-->
+
+<!--LLamamos al menu haciendo que se extienda de base.htlm-->
+{% extends 'core/base.html' %}
+<!--La etiqueta de Contacto-->
+{% block title %}Contacto{% endblock %}
+
+{%block background%}{%load static%}{%static 'core/img/contact-bg.jpg' %}{%endblock%}
+
+{%block headers%}
+    <h1>Contacto</h1>
+    <span class="subheading">Estudiante</span>
+{%endblock%}
+
+{% block content %}
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>Me pueden contactar mediante:</p>
+          <br>
+          <p><b>Teléfono:</b> 0995600522</p>
+          <p><b>Correo:</b> kcayo5279@utm.edu.ec</p>
+        </div>
+      </div>
+    </div>
+{% endblock %}
+
+

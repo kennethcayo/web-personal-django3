@@ -1,0 +1,16 @@
+<!-- Etiquetas-->
+
+<!--LLamamos al menu haciendo que se extienda de base.htlm-->
+{% extends 'core/base.html' %}
+<!--La etiqueta de Portada-->
+{% block title %}Portada{% endblock %}
+
+{%block background%}{%load static%}{%static 'core/img/home-bg.jpg' %}{%endblock%}
+
+{%block headers%}
+    <h1>Juan Pérez</h1>
+    <span class="subheading">Ingeniero Industrial</span>
+{%endblock%}
+
+
+
